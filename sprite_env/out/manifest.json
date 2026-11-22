@@ -1,0 +1,148 @@
+{
+  "name": "Дракончик",
+  "frameWidth": 256,
+  "frameHeight": 256,
+  "anchor": [
+    128,
+    244
+  ],
+  "atlas": "atlas.png",
+  "animations": {
+    "idle": {
+      "sheet": "sheets/idle.png",
+      "row": 0,
+      "frames": 7,
+      "fps": 3,
+      "loop": true,
+      "description": "Покой: дышит, моргает, шевелит ушками и хвостом"
+    },
+    "run_right": {
+      "sheet": "sheets/run_right.png",
+      "row": 1,
+      "frames": 4,
+      "fps": 8,
+      "loop": true,
+      "description": "Перебежка вправо"
+    },
+    "run_left": {
+      "sheet": "sheets/run_left.png",
+      "row": 2,
+      "frames": 4,
+      "fps": 8,
+      "loop": true,
+      "description": "Перебежка влево"
+    },
+    "wave": {
+      "sheet": "sheets/wave.png",
+      "row": 3,
+      "frames": 6,
+      "fps": 5,
+      "loop": false,
+      "description": "Приветствие: машет лапой"
+    },
+    "jump": {
+      "sheet": "sheets/jump.png",
+      "row": 4,
+      "frames": 7,
+      "fps": 7,
+      "loop": false,
+      "description": "Прыжок: пытается взлететь, машет крыльями и приземляется"
+    },
+    "fail": {
+      "sheet": "sheets/fail.png",
+      "row": 5,
+      "frames": 7,
+      "fps": 3,
+      "loop": false,
+      "description": "Неудача: прижимает ушки, сворачивается клубком и расправляется"
+    },
+    "wait": {
+      "sheet": "sheets/wait.png",
+      "row": 6,
+      "frames": 4,
+      "fps": 2,
+      "loop": true,
+      "description": "Ожидание: умоляющие глаза, наклон головы"
+    },
+    "inspect": {
+      "sheet": "sheets/inspect.png",
+      "row": 7,
+      "frames": 6,
+      "fps": 3,
+      "loop": false,
+      "description": "Проверка результата: наклоняется и осматривает"
+    },
+    "eat": {
+      "sheet": "sheets/eat.png",
+      "row": 8,
+      "frames": 6,
+      "fps": 4,
+      "loop": true,
+      "description": "Занятость: держит и ест рыбку"
+    },
+    "toss_fish": {
+      "sheet": "sheets/toss_fish.png",
+      "row": 9,
+      "frames": 24,
+      "fps": 8,
+      "loop": false,
+      "description": "Подбрасывает рыбку, ловит и довольно обнимает"
+    },
+    "fly_right": {
+      "sheet": "sheets/fly_right.png",
+      "row": 10,
+      "frames": 6,
+      "fps": 10,
+      "loop": true,
+      "description": "Полёт вправо"
+    },
+    "fly_left": {
+      "sheet": "sheets/fly_left.png",
+      "row": 11,
+      "frames": 6,
+      "fps": 10,
+      "loop": true,
+      "description": "Полёт влево"
+    },
+    "hover": {
+      "sheet": "sheets/hover.png",
+      "row": 12,
+      "frames": 6,
+      "fps": 10,
+      "loop": true,
+      "description": "Парит на месте, лицом к нам"
+    },
+    "takeoff": {
+      "sheet": "sheets/takeoff.png",
+      "row": 13,
+      "frames": 6,
+      "fps": 8,
+      "loop": false,
+      "description": "Взлёт с места"
+    },
+    "land": {
+      "sheet": "sheets/land.png",
+      "row": 14,
+      "frames": 6,
+      "fps": 8,
+      "loop": false,
+      "description": "Приземление"
+    },
+    "look": {
+      "sheet": "sheets/look.png",
+      "row": 15,
+      "frames": 16,
+      "fps": 6,
+      "loop": true,
+      "description": "Взгляд: 16 направлений (кадр = направление)"
+    },
+    "fish_hug": {
+      "sheet": "sheets/fish_hug.png",
+      "row": 16,
+      "frames": 8,
+      "fps": 3,
+      "loop": false,
+      "description": "Обнимает рыбку и довольно жмурится"
+    }
+  }
+}
